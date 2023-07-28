@@ -160,7 +160,7 @@ export default function MuHeader({ children }: any) {
               />
             </ActionIcon>
           </MediaQuery>
-          <MediaQuery smallerThan="sm" styles={{ display: "none", width: 0 }}>
+          {/* <MediaQuery smallerThan="sm" styles={{ display: "none", width: 0 }}>
             <ActionIcon
               sx={{ opacity: 0.8 }}
               onClick={() => {
@@ -169,7 +169,7 @@ export default function MuHeader({ children }: any) {
             >
               <IconBrandGithub size={px("1.5rem")} />
             </ActionIcon>
-          </MediaQuery>
+          </MediaQuery> */}
         </Group>
       </Container>
     </Header>

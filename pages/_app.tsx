@@ -45,7 +45,7 @@ export default function App(props: AppProps) {
   return (
     <>
       <Head>
-        <title>YakGPT</title>
+        <title>QatAI</title>
         <meta name="description" content="A new ChatGPT UI" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />

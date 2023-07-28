@@ -22,7 +22,7 @@ export default class _Document extends Document {
                     const urlParams = new URLSearchParams(window.location.search);
                     if (urlParams.has('eruda') && urlParams.get('eruda') === 'true') {
                       const script = document.createElement('script');
-                      script.src = '//cdn.jsdelivr.net/npm/eruda';
+                      script.src = '/scripts/eruda.js';
                       document.body.appendChild(script);
                       script.onload = function() {
                         eruda.init();
