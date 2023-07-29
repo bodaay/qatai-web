@@ -321,12 +321,12 @@ export default function NavbarSimple() {
             {upperFirst(colorScheme === "light" ? "dark" : "light")} theme
           </span>
         </a>
-
-        <Modal opened={openedKeyModal} onClose={closeKeyModal} title="API Keys">
+ {/* bodaay: commented out for now */}
+        {/* <Modal opened={openedKeyModal} onClose={closeKeyModal} title="API Keys">
           <KeyModal close={closeKeyModal} />
-        </Modal>
-
-        <a
+        </Modal> */}
+           
+        {/* <a
           href="#"
           className={classes.link}
           onClick={(event) => {
@@ -338,17 +338,17 @@ export default function NavbarSimple() {
         >
           <IconKey className={classes.linkIcon} stroke={1.5} />
           <span>API Keys</span>
-        </a>
+        </a> */}
 
-        <Modal
+        {/* <Modal
           opened={openedSettingsModal}
           onClose={closeSettingsModal}
           title="Settings"
         >
           <SettingsModal close={closeSettingsModal} />
-        </Modal>
+        </Modal> */}
 
-        <a
+        {/* <a
           href="#"
           className={classes.link}
           onClick={(event) => {
@@ -361,7 +361,7 @@ export default function NavbarSimple() {
         >
           <IconSettings className={classes.linkIcon} stroke={1.5} />
           <span>Settings</span>
-        </a>
+        </a> */}
       </Navbar.Section>
       <Modal
         opened={openedTitleModal}

@@ -164,7 +164,8 @@ const ChatDisplay = () => {
       style={{ paddingBottom: pushToTalkMode ? "7em" : "5em" }}
     >
       <div className={classes.chatContainer}>
-        <MuHeader />
+        {/* bodaay: removed this cost thing */}
+        {/* <MuHeader />  */}
 
         {!activeChatId && <NewChat />}
         {activeChat?.messages.map((message, idx) => (

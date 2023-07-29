@@ -78,16 +78,17 @@ const PlayerControls = () => {
 
   return (
     <div className={classes.playerControls}>
-      <Button
+      {/* bodaay: removed auto things */}
+      {/* <Button
         sx={{ height: 36, borderRadius: "8px 0px 0px 0px" }}
         compact
         variant={playerMode ? "filled" : "light"}
         onClick={() => toggleAudio()}
       >
         {playerMode && <PlayPauseIcon size={20} />}
-      </Button>
+      </Button> */}
 
-      <Button
+      {/* <Button
         sx={{ height: 36, borderRadius: "0px 0px 0px 8px" }}
         compact
         variant={playerMode ? "filled" : "light"}
@@ -96,7 +97,7 @@ const PlayerControls = () => {
         }}
       >
         <PlayerToggleIcon size={px("1.1rem")} stroke={1.5} />
-      </Button>
+      </Button> */}
     </div>
   );
 };
@@ -195,8 +196,8 @@ const RecorderControls = () => {
       ) : (
         <UIControllerSettings />
       )}
-
-      <Button
+{/* bodaay: removed mic button */}
+      {/* <Button
         sx={{ height: 36, borderRadius: "0px 0px 8px 0px" }}
         compact
         variant={pushToTalkMode ? "filled" : "light"}
@@ -209,7 +210,7 @@ const RecorderControls = () => {
         }}
       >
         <PushToTalkToggleIcon size={20} />
-      </Button>
+      </Button> */}
     </div>
   );
 };
